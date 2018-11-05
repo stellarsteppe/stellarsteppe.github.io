@@ -1,0 +1,81 @@
+/* Creator: steppe
+Date Created: 11.2.2018
+Date Last Modified: 11.2.2018 
+*/
+.wrappper   {
+    border: 5px dotted blue;
+    width: 700px;
+}
+h1  {
+    font-family: 'Spicy Rice', cursive;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    font-size: 4em;
+
+}
+iframe { 
+    width: 600px ;
+    display: center;
+   margin: 20px 0 0 0;
+    border: 5px solid hotpink;
+    }
+    
+ .topperDisplay  {
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: space-around;
+       padding: 10px 0 10px 0;
+     
+    }
+    
+    .topperDisplay .sideAreas  {
+        height: 335px;
+        width: 100px;
+        display: inline;
+        background-color: blue;
+           
+    }
+
+   nav ul{
+        list-style-type: none; 
+        text-decoration: none;
+        
+    }
+
+    header ul   {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    ol  {
+        list-style-type: none;
+        line-height: 2;
+        font-family: 'PT Sans Narrow',
+        sans-serif;
+        font-size: 16pt;
+    }
+    p   {
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 16pt;
+    }
+    nav  {
+        font-family: 'Acme', sans-serif;
+        font-size: 18pt;
+    }
+    a:hover   {
+        font-size: 28pt;
+        color: tomato;
+        text-decoration: none;
+    }
+    a   {
+        text-decoration: none;
+    }
+    fieldset    {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        font-size: 20pt;
+    }
